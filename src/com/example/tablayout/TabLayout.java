@@ -21,14 +21,14 @@ public class TabLayout extends TabActivity {
 		TabHost tabHost = getTabHost(); // The activity TabHost
 
 		Intent intent = new Intent(this, MainActivity.class);
-		tabHost.addTab(tabHost.newTabSpec("Main")
-				.setIndicator("Main", res.getDrawable(R.drawable.ic_tab_main))
+		tabHost.addTab(tabHost.newTabSpec("Invoerscherm")
+				.setIndicator("Invoerscherm", res.getDrawable(R.drawable.ic_tab_main))
 				.setContent(intent));
 
 		Intent intent2 = new Intent(this, SetupActivity.class);
 		tabHost.addTab(tabHost
-				.newTabSpec("Setup")
-				.setIndicator("Setup", res.getDrawable(R.drawable.ic_tab_setup))
+				.newTabSpec("Serverscherm")
+				.setIndicator("Serverscherm", res.getDrawable(R.drawable.ic_tab_setup))
 				.setContent(intent2));
 		tabHost.setCurrentTab(0);
 

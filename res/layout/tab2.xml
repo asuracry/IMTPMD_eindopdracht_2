@@ -3,17 +3,20 @@
 	android:orientation="vertical" android:layout_width="fill_parent"
 	android:layout_height="fill_parent" android:id="@+id/tab2Layout">
 
-	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	<TableLayout 
 		android:layout_width="fill_parent" android:layout_height="fill_parent"
 		android:stretchColumns="1">
 		<TableRow>
-			<TextView android:text="Setup" android:textSize="18sp"
-				android:layout_span="3" android:layout_gravity="center_horizontal" />
+
+			<TextView
+			    android:layout_gravity="center_horizontal"
+			    android:layout_span="3"
+			    android:text="Serverscherm"
+			    android:textSize="18sp" />
+
 		</TableRow>
 
 		<TableRow>
-			<TextView android:text="..." android:textSize="15sp"
-				android:layout_span="3" android:layout_gravity="center_horizontal" />
 		</TableRow>
 
 	</TableLayout>
