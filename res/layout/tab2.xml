@@ -8,12 +8,6 @@
 		android:stretchColumns="1">
 		<TableRow>
 
-			<TextView
-			    android:layout_gravity="center_horizontal"
-			    android:layout_span="3"
-			    android:text="Serverscherm"
-			    android:textSize="18sp" />
-
 		</TableRow>
 
 		<TableRow>

@@ -20,8 +20,13 @@ public final class R {
         public static final int icon=0x7f020006;
     }
     public static final class id {
+        public static final int button1=0x7f050005;
+        public static final int ipAdressVeld=0x7f050003;
+        public static final int naamVeld=0x7f050001;
+        public static final int opdrachtVeld=0x7f050002;
+        public static final int poortNummerVeld=0x7f050004;
         public static final int tab1Layout=0x7f050000;
-        public static final int tab2Layout=0x7f050001;
+        public static final int tab2Layout=0x7f050006;
     }
     public static final class layout {
         public static final int main=0x7f030000;

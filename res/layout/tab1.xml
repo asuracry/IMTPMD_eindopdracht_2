@@ -6,16 +6,59 @@
 	<TableLayout 
 		android:layout_width="fill_parent" android:layout_height="fill_parent"
 		android:stretchColumns="1">
-		<TableRow>
 
-			<TextView
-			    android:layout_gravity="center_horizontal"
-			    android:layout_span="3"
-			    android:text="Invoerscherm"
-			    android:textSize="18sp" />
+		<EditText
+		    android:id="@+id/naamVeld"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:ems="10"
+		    android:inputType="textPersonName"
+		    android:text="Naam" />
+
+		<EditText
+		    android:id="@+id/opdrachtVeld"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:ems="10"
+		    android:inputType="textPersonName"
+		    android:text="Vraag" />
+
+		<TableRow>
 
 		</TableRow>
 		<TableRow>
+
 		</TableRow>
+
+		<EditText
+		    android:id="@+id/ipAdressVeld"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:ems="10"
+		    android:inputType="textPersonName"
+		    android:text="Ip" />
+
+		<EditText
+		    android:id="@+id/poortNummerVeld"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:ems="10"
+		    android:text="Poortnummer" >
+
+		    <requestFocus />
+		</EditText>
+
+		<RelativeLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" >
+		</RelativeLayout>
+
+		<Button
+		    android:id="@+id/button1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Verzend"
+		    android:onClick="VerstuurBericht" />
+
 	</TableLayout>
 </RelativeLayout>
