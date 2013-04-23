@@ -45,13 +45,13 @@ public class MainActivity extends Activity implements OnClickListener {
 		EditText ipAdressEditText = (EditText) this.findViewById(R.id.ipAdressVeld); 
 		ipAdress = ipAdressEditText.getText().toString();
 		
-		String bericht = naam + " zegt: " + opdracht;
+		//String bericht = naam + " zegt: " + opdracht;
 		
 		System.out.println("ipadress:" + ipAdress);
 		System.out.println("poortNummer:" + poortNummer);
-		System.out.println("bericht:" + bericht);
+		//System.out.println("bericht:" + bericht);
 		
-		serverCommunicator = new ServerCommunicator(this, ipAdress, poortNummer, bericht);
+		serverCommunicator = new ServerCommunicator(this,naam,opdracht, ipAdress, poortNummer);
 		System.out.println("hij verzend");
 
 	}
